@@ -1,0 +1,36 @@
+{
+  "name": "Merge Excel Workbooks \u2014 runlocally",
+  "short_name": "Excel Merge",
+  "description": "Merge all worksheets from multiple .xlsx or .xlsm workbooks into one .xlsx file in your browser.",
+  "start_url": "/xlsx-merge/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "scope": "/xlsx-merge/",
+  "icons": [
+    {
+      "src": "/xlsx-merge/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/xlsx-merge/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
