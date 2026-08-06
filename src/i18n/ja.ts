@@ -103,4 +103,9 @@ export const ja: ToolContent = {
       'Geppetto が開発・保守しています。コードと文章の一部に AI の支援を使い、結果はメンテナーが確認しています。',
     securityText: 'セキュリティ',
   },
+
+  related: {
+    h2: '関連ツール',
+    blogLinkText: '技術解説を読む',
+  },
 };
